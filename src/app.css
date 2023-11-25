@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*, .body {
+    /* color: #252323; */
+    font-family: 'Lato', sans-serif;
+}
+
+.bg-primary {
+    background-color: #7d62fb;
+    background-color: #456990;
+}
+
+.text-secondary {
+    color: #ffd166;
+    color: #353b3c;
+    color: #252323;
+}

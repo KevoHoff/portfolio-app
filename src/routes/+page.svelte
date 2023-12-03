@@ -16,7 +16,7 @@
     }
 </script>
 
-<div class="h-full w-full">
+<div class="h-full w-full bg-surface">
     {#if intro_complete}
         <Header></Header>
     {/if}
@@ -31,8 +31,8 @@
     </div>
     {#if intro_complete}
         <About></About>
-        <!-- <Experience></Experience> -->
         <Projects></Projects>
+        <Experience></Experience>
         <Contact></Contact>
         <Footer></Footer>
     {/if}

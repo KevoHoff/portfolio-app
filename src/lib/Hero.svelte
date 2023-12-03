@@ -15,9 +15,9 @@
     });
 </script>
 
-<div in:fade class="w-full h-screen flex flex-col-reverse sm:flex-row justify-center items-center p-4" id="hero">
+<div in:fade class="w-full h-screen flex flex-col-reverse sm:flex-row justify-center items-center p-4 gap-4" id="hero">
     <div class="text-center">
-        <div class="text-xl w-full flex justify-center">
+        <div class="text-2xl w-full flex justify-center">
             <Typewriter class="inline">{greeting}</Typewriter><span>!</span>
         </div>
         <h1 class="md:text-5xl text-4xl font-bold">Kevin Hoffman</h1>
@@ -38,5 +38,5 @@
         
         
     </div>
-    <img class="w-1/2 max-w-sm drop-shadow-lg" src="profile.png" alt="">
+    <img class="w-1/2 max-w-sm drop-shadow-lg" src="profile2.png" alt="">
 </div>

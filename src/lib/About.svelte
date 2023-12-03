@@ -1,15 +1,11 @@
-<script>
-
-</script>
-
-<section class="w-full my-8 bg-primary text-white" id="about">
-    <div class="container mx-auto p-8">
+<section class="w-full my-8 bg-primary text-surface" id="about">
+    <div class="container mx-auto p-8 text-center">
         <h2 class="h2 font-bold text-5xl text-center mb-8">About Me</h2>
         <p class="text-lg my-4 px-8 md:px-24">
-            Wherever you are, it is a pleasure to meet you! 
+            Wherever you are, it is a pleasure to meet you! I am a programmer, a coffee enthusiast, and&#45;mainly&#45;a learner. Nothing excites me more than new innovations. There is no greater motivation than watching something new arise from curious minds. My goal is to be on the forefront of curiosity.
         </p>
         <div class="grid sm:grid-cols-2 grid-cols-1 gap-4 place-items-center">
-            <div class="bg-white text-black h-full rounded-lg p-4 text-center w-full max-w-md shadow-md">
+            <div class="bg-surface text-black h-full rounded-lg p-4 text-center w-full max-w-md shadow-md">
                 <h3 class="h3 font-bold text-2xl text-secondary">Developer</h3>
                 <hr class="my-4">
                 <p class="font-semibold text-lg">Languages</p>
@@ -30,7 +26,7 @@
                     <li>Scrum/Agile</li>
                 </ul>
             </div>
-            <div class="bg-white text-black h-full rounded-lg p-4 text-center w-full max-w-md shadow-md">
+            <div class="bg-surface text-black h-full rounded-lg p-4 text-center w-full max-w-md shadow-md">
                 <h3 class="h3 font-bold text-2xl text-secondary">Personal</h3>
                 <hr class="my-4">
                 <p class="font-semibold text-lg">Obsessions</p>
@@ -59,7 +55,13 @@
             mathematical jargon. I promise, your voice is valued here. Meet me to talk more, coffee's on me!
         </p>
         <div class="flex justify-center">
-            <a href="https://calendly.com/kevinmasonhoffman/get-to-know-each-other" class="mx-auto w-fit border-2 rounded-lg px-2 py-1.5 transition hover:bg-purple-400">Pencil me in</a>
+            <a href="https://calendly.com/kevinmasonhoffman/get-to-know-each-other" class="mx-auto w-fit border-2 rounded-lg px-2 py-1.5 contact-button">Pencil me in</a>
         </div>
     </div>
 </section>
+
+<style>
+    .contact-button:hover {
+        background-color: #5A83AF;
+    }
+</style>

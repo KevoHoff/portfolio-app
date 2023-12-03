@@ -13,7 +13,7 @@
                   </p>
                 </div>
                 <div class="px-6 pb-4">
-                    <button class="px-4 py-2 border-2 rounded-full">Live Demo</button>
+                    <button class="px-2.5 py-2 border-2 transition-colors hover:bg-gray-100 rounded-full">Live Demo</button>
                 </div>
             </div>
             <div class="max-w-sm rounded overflow-hidden shadow-lg h-full">
@@ -27,7 +27,7 @@
                   </p>
                 </div>
                 <div class="px-6 pb-4">
-                    <button class="px-4 py-2 border-2 rounded-full">Presentation</button>
+                    <button class="px-2.5 py-2 border-2 rounded-full transition-colors hover:bg-gray-100">Presentation</button>
                 </div>
             </div>
             <div class="max-w-sm rounded overflow-hidden shadow-lg h-full">
@@ -41,12 +41,12 @@
                   </p>
                 </div>
                 <div class="px-6 pb-4">
-                    <a href="https://www.causeweb.org/usproc/eusrc/2020/virtual-posters/10" target="_blank" class="px-4 py-2 border-2 rounded-full">Presentation</a>
+                    <a href="https://www.causeweb.org/usproc/eusrc/2020/virtual-posters/10" target="_blank" class="px-2.5 py-2 border-2 rounded-full transition-colors hover:bg-gray-100">Presentation</a>
                 </div>
             </div>
             <div class="max-w-sm rounded overflow-hidden shadow-lg h-full">
-                <div class="relative bg-gradient-to-r from-red-300 to-blue-300 rounded-lg aspect-video grid place-items-center">
-                    <img src="explainai.jpg" class="w-full aspect-video contrast-75 opacity-90" alt="">
+                <div class="relative rounded-lg aspect-video grid place-items-center">
+                    <img src="explainai.jpg" class="w-full rounded aspect-video contrast-75 opacity-90" alt="">
                     <div class="absolute grid place-items-center w-full">
                         <img class="w-1/4" src="wip.svg" alt="" srcset="">
                     </div>
@@ -58,7 +58,7 @@
                   </p>
                 </div>
                 <div class="px-6 pb-4">
-                    <a href="#contact" class="px-4 py-2 border-2 rounded-full hover:bg-slate-100">Contact me</a>
+                    <a href="#contact" class="px-2.5 py-2 border-2 rounded-full transition-colors hover:bg-gray-100">Contact me</a>
                 </div>
             </div>
         </div>

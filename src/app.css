@@ -8,8 +8,19 @@
 }
 
 .bg-primary {
-    background-color: #7d62fb;
     background-color: #456990;
+}
+
+.bg-secondary {
+     background-color: #B9C6AE;
+}
+
+.bg-surface {
+    background-color: #fffdf5;
+}
+
+.text-surface {
+    color: #fffdf5;
 }
 
 .text-secondary {

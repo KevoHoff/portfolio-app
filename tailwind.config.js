@@ -6,7 +6,6 @@ export default {
     container: {
       center: true,
     }
-  },
-  plugins: [require('flowbite/plugin')],
+  }
 }
 

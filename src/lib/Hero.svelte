@@ -15,7 +15,7 @@
     });
 </script>
 
-<div in:fade class="w-full h-screen flex flex-col-reverse sm:flex-row justify-center items-center p-4 gap-4" id="hero">
+<div in:fade class="w-full h-screen flex flex-col-reverse sm:flex-row justify-center items-center p-4 gap-4" id="home">
     <div class="text-center">
         <div class="text-2xl w-full flex justify-center">
             <Typewriter class="inline">{greeting}</Typewriter><span>!</span>

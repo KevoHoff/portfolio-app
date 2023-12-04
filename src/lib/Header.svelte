@@ -14,7 +14,7 @@
             <span></span>
         </button>
     </div>
-    <a id="home_a" href="#about" class:open={open} class="z-10 absolute text-center text-lg rounded-full bg-secondary shadow">
+    <a id="home_a" href="#home" class:open={open} class="z-10 absolute text-center text-lg rounded-full bg-secondary shadow">
         Home
     </a>
     <a id="about_a" href="#about" class:open={open} class="z-10 absolute text-center text-lg rounded-full bg-secondary shadow">
@@ -57,10 +57,8 @@
     }
 
     #home_a {
-        --angle: 0deg
-        left: calc(-100px * cos(--angle));
-        top: calc(10px + (100px * sin(--angle)));
-        transition-delay: 50ms;
+        left: calc(-10px + -120px * cos(0deg));
+        top: calc(10px + (120px * sin(0deg)));
     }
 
     #home_a.open {
@@ -68,9 +66,9 @@
     }
 
     #about_a {
-        left: calc(-100px * cos(15deg));
-        top: calc( (100px * sin(15deg)));
-        transition-delay: 50ms;
+        left: calc(-10px + -120px * cos(15deg));
+        top: calc(10px + (120px * sin(15deg)));
+        transform: rotate(-15deg);
     }
 
     #about_a.open {
@@ -78,11 +76,9 @@
     }
 
     #projects_a {
-        --angle: 30deg
-        left: calc(-10px + -100px * cos(--angle));
-        top: calc(10px + (100px * sin(--angle)));
-        transform: rotate(-20deg);
-        transition-delay: 100ms;
+        left: calc(-10px + -120px * cos(30deg));
+        top: calc(10px + (120px * sin(30deg)));
+        transform: rotate(-30deg);
     }
 
     #projects_a.open {
@@ -90,11 +86,9 @@
     }
 
     #contact_a {
-        --angle: 45deg
-        left: calc(-10px + -100px * cos(--angle));
-        top: calc(10px + (100px * sin(--angle)));
-        transform: rotate(-40deg);
-        transition-delay: 150ms;
+        left: calc(-10px + -120px * cos(45deg));
+        top: calc(10px + (120px * sin(45deg)));
+        transform: rotate(-45deg);
     }
 
     #contact_a.open {

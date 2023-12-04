@@ -32,7 +32,7 @@
     {#if intro_complete}
         <About></About>
         <Projects></Projects>
-        <Experience></Experience>
+        <!-- <Experience></Experience> -->
         <Contact></Contact>
         <Footer></Footer>
     {/if}

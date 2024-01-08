@@ -2,9 +2,7 @@
     import Typewriter from 'svelte-typewriter'
     import Hero from '$lib/Hero.svelte';
     import About from '$lib/About.svelte';
-    import Experience from '$lib/Experience.svelte';
     import Projects from '$lib/Projects.svelte';
-    import Accomplishments from '$lib/Accomplishments.svelte';
     import Contact from '$lib/Contact.svelte';
     import Footer from '$lib/Footer.svelte';
     import Header from '$lib/Header.svelte';
@@ -32,7 +30,6 @@
     {#if intro_complete}
         <About></About>
         <Projects></Projects>
-        <!-- <Experience></Experience> -->
         <Contact></Contact>
         <Footer></Footer>
     {/if}

@@ -13,7 +13,7 @@
                   </p>
                 </div>
                 <div class="px-6 pb-4">
-                    <button class="px-2.5 py-2 border-2 transition-colors hover:bg-gray-100 rounded-full">Live Demo</button>
+                    <a href="https://nvizai.com" target="_blank" class="px-2.5 py-2 border-2 transition-colors hover:bg-gray-100 rounded-full">Live Demo</a>
                 </div>
             </div>
             <div class="max-w-sm rounded overflow-hidden shadow-lg h-full">
@@ -27,7 +27,7 @@
                   </p>
                 </div>
                 <div class="px-6 pb-4">
-                    <button class="px-2.5 py-2 border-2 rounded-full transition-colors hover:bg-gray-100">Presentation</button>
+                    <a target="_blank" href="https://www.billmongan.com/portfolio/smartgarments/" class="px-2.5 py-2 border-2 rounded-full transition-colors hover:bg-gray-100">Overview</a>
                 </div>
             </div>
             <div class="max-w-sm rounded overflow-hidden shadow-lg h-full">
@@ -61,6 +61,24 @@
                     <a href="#contact" class="px-2.5 py-2 border-2 rounded-full transition-colors hover:bg-gray-100">Contact me</a>
                 </div>
             </div>
+        </div>
+        <div class="my-32">
+            <h3 class="text-center text-2xl font-bold mb-4">What do others say?</h3>
+            <figure class="max-w-screen-md mx-auto text-center">
+                <svg class="w-10 h-10 mx-auto mb-3 text-gray-400 dark:text-gray-600" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 18 14">
+                    <path d="M6 0H2a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4v1a3 3 0 0 1-3 3H2a1 1 0 0 0 0 2h1a5.006 5.006 0 0 0 5-5V2a2 2 0 0 0-2-2Zm10 0h-4a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4v1a3 3 0 0 1-3 3h-1a1 1 0 0 0 0 2h1a5.006 5.006 0 0 0 5-5V2a2 2 0 0 0-2-2Z"/>
+                </svg>
+                <blockquote>
+                    <p class="text-xl italic font-medium text-gray-900">"He wants to orient his career toward “explainable AI” in the long run, helping people who don’t have extensive experience with these systems gain a common understanding of their uses and misuses so they can better navigate the world around them."</p>
+                </blockquote>
+                <figcaption class="flex items-center justify-center mt-6 space-x-3 rtl:space-x-reverse">
+                    <div class="flex items-center divide-x-2 rtl:divide-x-reverse divide-gray-500 dark:divide-gray-700">
+                        <cite class="pe-3 font-medium text-gray-900">Ben Seal</cite>
+                        <cite class="px-3 text-sm text-gray-900">Ursinus College</cite>
+                        <a class="ps-3 text-sm underline" target="_blank" href="https://www.ursinus.edu/live/news/8149-the-new-view">Article</a>
+                    </div>
+                </figcaption>
+            </figure>
         </div>
         <div class="py-8 w-full flex flex-col items-center gap-2">
             <p class="text-center text-2xl font-bold">Not enough?</p>

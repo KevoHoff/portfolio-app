@@ -14,7 +14,8 @@
                     <li>R</li>
                     <li>HTML/CSS/JS</li>
                     <li>PHP</li>
-                    <li>SvelteKit</li>
+                    <li>Java</li>
+                    <li>C++</li>
                 </ul>
                 <hr class="my-4">
                 <p class="font-semibold text-lg">Skills</p>
@@ -55,7 +56,7 @@
             mathematical jargon. I promise, your voice is valued here. Meet me to talk more, coffee's on me!
         </p>
         <div class="flex justify-center">
-            <a href="https://calendly.com/kevinmasonhoffman/get-to-know-each-other" class="mx-auto w-fit border-2 rounded-lg px-2 py-1.5 contact-button">Pencil me in</a>
+            <a target="_blank" href="https://calendly.com/kevinmasonhoffman/get-to-know-each-other" class="mx-auto w-fit border-2 rounded-lg px-2 py-1.5 contact-button">Pencil me in</a>
         </div>
     </div>
 </section>
